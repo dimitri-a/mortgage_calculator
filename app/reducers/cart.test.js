@@ -24,7 +24,7 @@ describe('reducer cart', () => {
     });
 
 
-    test('should up the price ', () => {
+    xtest('should up the price ', () => {
         expect(totalPrice).toBe(11);
     });
 
