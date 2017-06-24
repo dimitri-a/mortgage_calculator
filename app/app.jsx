@@ -10,6 +10,7 @@ import React from 'react';
 import './css/test.css';
 import Products from './components/products.jsx';
 import Cart from './components/cart.jsx';
+import Calc from './components/calculator.jsx';
 
 //
 
@@ -17,8 +18,7 @@ import Cart from './components/cart.jsx';
 const App = () => (
     <Provider store={store}>
         <div>
-            <Products/>
-            <Cart/>
+            <Calc></Calc>
         </div>
     </Provider>
 );
