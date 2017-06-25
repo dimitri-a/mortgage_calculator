@@ -23,13 +23,14 @@ export default class Test extends Component {
 
             //todo use proper formula
             year.balance =balance - i * (balance/duration)  ;
-            year.yr=duration -(i+1);
+            year.yr=i;
 
             data.push(year);
 
         }
 
 
+        console.log('data=',data)
         return data;
     }
 
@@ -87,7 +88,7 @@ export default class Test extends Component {
             chartSeries = [
                 {
                     field: 'balance',
-                    name: 'BMI',
+                    name: 'balance',
                     color: '#ff7f0e'
                 }
             ],
