@@ -11,6 +11,7 @@ import './css/test.css';
 import Products from './components/products.jsx';
 import Cart from './components/cart.jsx';
 import Calc from './components/calculator.jsx';
+import Test from './components/testchart.jsx';
 
 //
 
@@ -18,7 +19,7 @@ import Calc from './components/calculator.jsx';
 const App = () => (
     <Provider store={store}>
         <div>
-            <Calc></Calc>
+            <Test></Test>
         </div>
     </Provider>
 );
