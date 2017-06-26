@@ -5,7 +5,7 @@ import store from '../store';
 export class Counter extends Component {
 
 
-    increment() {
+    increment = () => {
          store.dispatch({type: 'INC'});
     }
 
